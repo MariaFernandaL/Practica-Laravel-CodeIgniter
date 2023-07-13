@@ -7,6 +7,56 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+# Proyecto 3
+Proyecto: Catálogo de relojes en Laravel
+Autor: David Gomez Arce
+Descripcion: Proyecto de tienda de relojes. Permite el registro e inicio de sesión de un usuario. Al ingresar permite visualizar la lista de productos (relojes) y administrarlos (crear, editar, buscar y actualizar).
+
+
+## Ajustes realizados:
+# Modelos
+- User.php Watch.php
+
+# Migraciones
+- 2014_10_12_000000_create_users_table.php
+- 2014_10_12_100000_create_password_reset_tokens_table.php
+- 2019_08_19_000000_create_failed_jobs_table.php
+- 2019_12_14_000001_create_personal_access_tokens_table.php
+- 2023_07_10_204839_update_user_table_avatar.php
+- 2023_07_11_195918_create_watches_table.php
+
+
+# Controladores
+- ProfileController.php
+
+# http/controllers/Auth
+- Los archivos de alli se modificaron.
+
+# Creacion de:
+- profile/AvatarController.php
+- watch/WatchController.php
+
+# Modificaciones en :
+- Requests/Auth/LoginRequest.php
+- Requests/ProfileUpdateRequest.php
+- Requests/UpdateAvatarRequest.php
+- routes/web.php
+
+
+# Views:
+- resources/views/auth
+- resources/views/components
+- resources/views/layouts
+- resources/views/profile
+
+# Creacion de views:
+- create.blade.php
+- edit.blade.php
+- show.blade.php
+- shop.blade.php 
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

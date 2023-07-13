@@ -16,4 +16,3 @@ Descripcion: Proyecto de reservas de cine. Este permite registro e inicio de ses
 Proyecto: Catálogo de relojes en Laravel
 Autor: David Gomez Arce
 Descripcion: Proyecto de tienda de relojes. Permite el registro e inicio de sesión de un usuario. Al ingresar permite visualizar la lista de productos (relojes) y administrarlos (crear, editar, buscar y actualizar).
-

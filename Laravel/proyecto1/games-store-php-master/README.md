@@ -7,6 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Proyecto 1
+Proyecto: CataloGame
+Autor: Juan Gerardo Mendez
+Descripcion: Proyecto de videojuegos, el cuál permite el registo e inicio de sesión de un usuario. Al ingresar a la aplicación se visualiza lista de videojuegos. Permite realizar todas las acciones de crud en los productos. Y permite que el usuario cierre su sesión.
+
+## Ajustes realizados:
+
+# Controllers
+- VideogameController.php [Creado]
+- UserController.php [Creado]
+
+
+# Models
+- Videogame.php [Creado]
+- User.php [Modificado]
+
+# Database/Migration
+- 2023_07_11_134023_create_videogames_table.php [Creado]
+
+# Database/Seeder
+- DatabaseSeeder.php [Modificado]
+
+# Resources/views
+- Todos los archivos fueron creados o o¿modificados. [Creado]
+
+# Routes
+- web.php [Modificado]
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
