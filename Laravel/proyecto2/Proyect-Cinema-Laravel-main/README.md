@@ -7,46 +7,46 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Proyecto 2
+# Proyecto 2
 - Proyecto: Cineverso
 - Autor: Cristhian Camilo Correa Ceballos
 - Descripcion: Proyecto de reservas de cine. Este permite registro e inicio de sesión de un usuario. Al ingresar permite ver la lista de peliculas disponibles, reservar un asiento en alguna de ellas y cancelar esas reservas. También permite que el usuario que inició sesión edite su información personal. 
 
 
 ## Ajustes realizados:
-# App/Models/
+### App/Models/
 - Client.php [Creado]
 - Movie.php [Creado]
 - Ticket.php [Creado]
 - User.php [Modificado]
 
-# App/Http/Controllers/
+### App/Http/Controllers/
 - LoginController.php
 - MovieController.php [Creado]
 - RegisterController.php [Creado]
 - TicketController.php [Creado]
 
-# App/Http/Requests/
+### App/Http/Requests/
 - LoginRequest.php
 - RegisterRequest.php
 
-# Config/
+### Config/
 - auth.php
 
-# Database/Migrations/
+### Database/Migrations/
 - 2014_10_12_000000_create_users_table.php [Creado]
 - 2023_07_12_150328_create_movies_table.php [Creado]
 - 2023_07_12_205021_create_tickets_table.php [Creado]
 
-# Public/Css/
+### Public/Css/
 - home.css [Creado]
 - movieSeat.css [Creado]
 - style.css
 
-# Public/Js/
+### Public/Js/
 - Alerts.js
 
-# Resources/Views/
+### Resources/Views/
 - app.blade.php
 - info.blade.php
 - movieSeat.blade.php [Creado]
@@ -54,7 +54,7 @@
 - sell.blade.php [Creado]
 - update.blade.php
 
-# Routes/
+### Routes/
 - web.php [Modificado]
 
 

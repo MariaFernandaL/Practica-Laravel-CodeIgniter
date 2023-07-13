@@ -15,10 +15,10 @@ Descripcion: Proyecto de tienda de relojes. Permite el registro e inicio de sesi
 
 
 ## Ajustes realizados:
-# Modelos
+### Modelos
 - User.php Watch.php
 
-# Migraciones
+### Migraciones
 - 2014_10_12_000000_create_users_table.php
 - 2014_10_12_100000_create_password_reset_tokens_table.php
 - 2019_08_19_000000_create_failed_jobs_table.php
@@ -27,30 +27,30 @@ Descripcion: Proyecto de tienda de relojes. Permite el registro e inicio de sesi
 - 2023_07_11_195918_create_watches_table.php
 
 
-# Controladores
+### Controladores
 - ProfileController.php
 
-# http/controllers/Auth
+### http/controllers/Auth
 - Los archivos de alli se modificaron.
 
-# Creacion de:
+### Creacion de:
 - profile/AvatarController.php
 - watch/WatchController.php
 
-# Modificaciones en :
+### Modificaciones en :
 - Requests/Auth/LoginRequest.php
 - Requests/ProfileUpdateRequest.php
 - Requests/UpdateAvatarRequest.php
 - routes/web.php
 
 
-# Views:
+### Views:
 - resources/views/auth
 - resources/views/components
 - resources/views/layouts
 - resources/views/profile
 
-# Creacion de views:
+### Creacion de views:
 - create.blade.php
 - edit.blade.php
 - show.blade.php

@@ -7,32 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Proyecto 1
+# Proyecto 1
 Proyecto: CataloGame
 Autor: Juan Gerardo Mendez
 Descripcion: Proyecto de videojuegos, el cuál permite el registo e inicio de sesión de un usuario. Al ingresar a la aplicación se visualiza lista de videojuegos. Permite realizar todas las acciones de crud en los productos. Y permite que el usuario cierre su sesión.
 
 ## Ajustes realizados:
 
-# Controllers
+### Controllers
 - VideogameController.php [Creado]
 - UserController.php [Creado]
 
 
-# Models
+### Models
 - Videogame.php [Creado]
 - User.php [Modificado]
 
-# Database/Migration
+### Database/Migration
 - 2023_07_11_134023_create_videogames_table.php [Creado]
 
-# Database/Seeder
+### Database/Seeder
 - DatabaseSeeder.php [Modificado]
 
-# Resources/views
+### Resources/views
 - Todos los archivos fueron creados o o¿modificados. [Creado]
 
-# Routes
+### Routes
 - web.php [Modificado]
 
 
